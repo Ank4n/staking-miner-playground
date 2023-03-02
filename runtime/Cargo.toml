@@ -16,45 +16,45 @@ targets = ["x86_64-unknown-linux-gnu"]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
 scale-info = { version = "2.0.1", default-features = false, features = ["derive"] }
 
-pallet-balances = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-frame-support = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-grandpa = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-randomness-collective-flip = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-sudo = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-staking = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-session = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-bags-list = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-staking-reward-curve = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-frame-election-provider-support = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-election-provider-multi-phase = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-aura = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-frame-system = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-timestamp = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-transaction-payment = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-frame-executive = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-api = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-staking = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-io = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-npos-elections = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-consensus-aura = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-block-builder = {  default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-core = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-inherents = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-offchain = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-runtime = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-session = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-std = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-transaction-pool = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-version = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
+pallet-balances = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+frame-support = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-grandpa = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-insecure-randomness-collective-flip = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-sudo = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-staking = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-session = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-bags-list = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-staking-reward-curve = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+frame-election-provider-support = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-election-provider-multi-phase = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-aura = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+frame-system = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-timestamp = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-transaction-payment = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+frame-executive = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-api = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-staking = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-io = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-npos-elections = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-consensus-aura = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-block-builder = {  default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-core = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-inherents = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-offchain = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-runtime = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-session = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-std = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-transaction-pool = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-version = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
 
 # Used for the node template's RPCs
-frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
+frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
 
-frame-benchmarking = { default-features = false, git = "https://github.com/paritytech/substrate.git", optional = true, branch = "master" }
+frame-benchmarking = { default-features = false, git = "https://github.com/paritytech/substrate.git", optional = true, branch = "ankan/paged-rewards-staking-api" }
 
 [build-dependencies]
-substrate-wasm-builder = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
+substrate-wasm-builder = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
 
 [features]
 default = ["std"]
@@ -71,7 +71,7 @@ std = [
 	"pallet-aura/std",
 	"frame-election-provider-support/std",
 	"pallet-election-provider-multi-phase/std",
-	"pallet-randomness-collective-flip/std",
+	"pallet-insecure-randomness-collective-flip/std",
 	"pallet-sudo/std",
 	"pallet-timestamp/std",
 	"pallet-transaction-payment-rpc-runtime-api/std",

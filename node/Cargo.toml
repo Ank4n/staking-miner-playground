@@ -19,43 +19,43 @@ name = "node-template"
 [dependencies]
 clap = { version = "3.1.18", features = ["derive"] }
 
-sc-cli = { git = "https://github.com/paritytech/substrate.git", features = ["wasmtime"] , branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-executor = { git = "https://github.com/paritytech/substrate.git", features = ["wasmtime"] , branch = "master" }
-sc-service = { git = "https://github.com/paritytech/substrate.git", features = ["wasmtime"] , branch = "master" }
-sc-telemetry = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-keystore = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-transaction-pool = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-transaction-pool-api = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-consensus-aura = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-consensus-aura = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-consensus = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-consensus = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-finality-grandpa = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-finality-grandpa = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-client-api = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-inherents = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-keyring = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-frame-system = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-transaction-payment = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-staking = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
+sc-cli = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-core = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-executor = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-service = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-telemetry = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-keystore = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-transaction-pool = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-transaction-pool-api = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-consensus-aura = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-consensus-aura = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-consensus = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-consensus = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-consensus-grandpa = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-consensus-grandpa = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-client-api = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-runtime = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-timestamp = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-inherents = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-keyring = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+frame-system = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-transaction-payment = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-staking = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
 
 # These dependencies are used for the node template's RPCs
 jsonrpsee = { version = "0.15.1", features = ["server"] }
-sc-rpc = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-api = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-rpc-api = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-basic-authorship = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-substrate-frame-rpc-system = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-pallet-transaction-payment-rpc = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
+sc-rpc = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-api = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-rpc-api = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-blockchain = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sp-block-builder = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+sc-basic-authorship = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+substrate-frame-rpc-system = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+pallet-transaction-payment-rpc = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
 
 # These dependencies are used for runtime benchmarking
-frame-benchmarking = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
-frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
+frame-benchmarking = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
+frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
 
 # Local Dependencies
 node-template-runtime = { version = "4.0.0-dev", path = "../runtime" }
@@ -65,10 +65,10 @@ rand = "0.8.5"
 
 
 # CLI-specific dependencies
-try-runtime-cli = { version = "0.10.0-dev", optional = true, git = "https://github.com/paritytech/substrate.git", branch = "master" }
+try-runtime-cli = { version = "0.10.0-dev", optional = true, git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/paritytech/substrate.git", branch = "master" }
+substrate-build-script-utils = { git = "https://github.com/paritytech/substrate.git", branch = "ankan/paged-rewards-staking-api" }
 
 [features]
 default = []
